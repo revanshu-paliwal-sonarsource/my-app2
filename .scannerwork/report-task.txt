@@ -1,0 +1,6 @@
+projectKey=my-app
+serverUrl=http://localhost/sonarqube
+serverVersion=9.3-SNAPSHOT
+dashboardUrl=http://localhost/sonarqube/dashboard?id=my-app
+ceTaskId=AX6vsyg9C8_GY-nCSpYy
+ceTaskUrl=http://localhost/sonarqube/api/ce/task?id=AX6vsyg9C8_GY-nCSpYy
