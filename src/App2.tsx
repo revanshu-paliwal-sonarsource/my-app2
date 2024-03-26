@@ -14,6 +14,7 @@ function App2() {
   }
   let evalString = "console.log('This is not good.')";
   eval(evalString); // Use of eval: Major security issue
+  eval(evalString); // Use of eval: Major security issue
   setTimeout(() => {
     console.log("This is a delayed log.");
   }, 1000); // Use of string for setTimeout delay: Potential bug
