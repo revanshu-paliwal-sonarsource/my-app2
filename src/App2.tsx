@@ -23,7 +23,7 @@ function App2() {
   return <div className="App">Test app change</div>;
 }
 
-export default App;
+export default App2;
 
 export function login(user: any) {
   // Sensitive operations require authentication checks

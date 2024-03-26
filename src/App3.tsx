@@ -1,8 +1,6 @@
 import "./App.css";
-import App2 from "./App2";
-import App3 from "./App3";
 
-function App() {
+function App3() {
   // problematic-sonar.js
   let password = "123456"; // Hardcoded password: Potential security issue
   let unusedVariable = "I'm not used"; // Unused variable: Code smell for dead code
@@ -22,15 +20,10 @@ function App() {
 
   // No use strict: Code smell for potentially problematic constructs
   // x = 017; // Octal numbers can be confusing: Code smell
-  return (
-    <div className="App">
-      Test app change <App2 />
-      <App3 />
-    </div>
-  );
+  return <div className="App">Test app change</div>;
 }
 
-export default App;
+export default App3;
 
 export function login(user: any) {
   // Sensitive operations require authentication checks
